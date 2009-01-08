@@ -4,6 +4,11 @@
 //
 //  Created by Jon Maddox on 11/26/08.
 //
+//
+//  NSCalendarDate does not exist in CocoaTouch on the iPhone. So I made this category to put 
+//  a little of the support I needed from NSCalendarDate into NSDate
+//
+//
 //  The MIT License
 //  
 //  Copyright (c) 2008 Mustache, Inc
@@ -25,6 +30,7 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
+
 
 @interface NSDate(Calendar)
 
